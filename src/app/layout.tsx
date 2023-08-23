@@ -12,7 +12,7 @@ const fontSans = FontSans({
 });
 
 const fontHeading = localFont({
-  src: "../../assets/fonts/Satoshi-Variable.woff2",
+  src: "../../public/assets/fonts/Satoshi-Variable.woff2",
   variable: "--font-heading",
   weight: "700",
   display: "swap",

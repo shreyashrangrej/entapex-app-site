@@ -1,5 +1,4 @@
 import Background from "@/components/marketing/background";
-import Link from "next/link";
 
 interface MarketingLayoutProps {
   children: React.ReactNode;
