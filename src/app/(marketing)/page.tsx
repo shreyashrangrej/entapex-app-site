@@ -1,7 +1,15 @@
+import About from "@/components/sections/About";
+import Hero from "@/components/sections/Hero";
+import Stack from "@/components/sections/Stack";
+import Testimonial from "@/components/sections/Testimonial";
+
 export default function Home() {
   return (
     <>
-      <h1 className="text-center">Hello EntApex</h1>
+      <Hero />
+      <About />
+      <Stack />
+      <Testimonial />
     </>
   );
 }
