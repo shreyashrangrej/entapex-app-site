@@ -50,7 +50,7 @@ const Hero = () => {
         <div className="mt-8 grid gap-3 w-full sm:inline-flex sm:justify-center">
           <Link
             className="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl from-blue-600 to-violet-600 hover:from-violet-600 hover:to-blue-600 border border-transparent text-white text-sm font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white py-3 px-4 dark:focus:ring-offset-gray-800"
-            href="#"
+            href="/documentation"
           >
             Get started
             <svg
@@ -76,7 +76,7 @@ const Hero = () => {
             Package Manager:
           </span>
           <span className="text-sm font-bold text-gray-900 dark:text-white">
-            npx
+            npm
           </span>
           <svg
             className="h-5 w-5 text-gray-300 dark:text-gray-600"
@@ -91,7 +91,7 @@ const Hero = () => {
           </svg>
           <Link
             className="inline-flex items-center gap-x-1.5 text-sm text-blue-600 decoration-2 hover:underline font-medium"
-            href="#"
+            href="/documentation"
           >
             Installation Guide
             <svg
